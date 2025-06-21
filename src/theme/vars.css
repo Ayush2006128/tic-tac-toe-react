@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #00b7ff;
+  --color-secondary: #282c34;
+  --color-text: #ffffff;
+  --color-accent: #6ea8ff;
+  --color-error: #e63946;
+  --color-success: #457b9d;
+  --color-background: #f0f0f0;
+  --color-dialog-bg: #3b3b3b;
+  --color-dialog-text: #ffffff;
+  --color-dialog-btn-bg: #6ea8ff;
+  --color-dialog-btn-hover: #e0e7ef;
+  --color-dialog-btn-text: #ffffff;
+  --font-family: Arial, sans-serif;
+}

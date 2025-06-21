@@ -17,8 +17,8 @@
   justify-content: space-between;
   align-items: top;
   height: fit-content;
-  background-color: rgb(0, 183, 255);
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
   box-shadow: 0 8px 8px rgba(160, 160, 160, 0.08);
   margin-bottom: 2rem;
   padding: 1rem;
@@ -49,13 +49,33 @@
 }
 
 .x-mark {
-  color: #e63946;
+  color: var(--color-error);
   font-weight: bold;
   font-size: 2rem;
 }
 
 .o-mark {
-  color: #457b9d;
+  color: var(--color-success);
   font-weight: bold;
   font-size: 2rem;
+}
+
+.reset-btn {
+  background-color: var(--color-dialog-btn-bg);
+  color: var(--color-dialog-btn-text);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 600px) {
+  .reset-btn:hover {
+    background: var(--color-dialog-btn-hover);
+    scale: 1.05;
+  }
+  
 }

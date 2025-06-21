@@ -6,8 +6,8 @@
     width: 100%;
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: #282c34;
-    color: #ffffff;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
 }
 
 .board-row {
@@ -23,8 +23,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-  border: 2px solid #22223b;
+  background: var(--color-background);
+  border: 2px solid var(--color-secondary);
   border-radius: 8px;
   transition: background 0.2s, box-shadow 0.2s;
 }
